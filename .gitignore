@@ -1,0 +1,87 @@
+checkpoint_classification_numbers_MNIST.pth
+tinycnn_mnist.pt
+*data/
+gtsrb/GTSRB-Training_fixed.zip
+*gtsrb/GTSRB/Training/
+*.jpg
+*.png
+*.mp4
+*.pth
+*/Users/ortalhanuna/my-code/Tasks/ObjectsDetective/Tracking_deep_sort_pytorch/yolo__deep_sort/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS / Editors ---
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+.vscode/
+.idea/
+
+# --- Logs & runs ---
+logs/
+*.log
+runs/
+lightning_logs/
+wandb/
+tensorboard/
+events.out.tfevents*
+
+
+# --- ML artifacts / weights / exports ---
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.onnx
+*.tflite
+*.h5
+*.pb
+*.bin
+*.weights
+*.safetensors
+
+# --- Project outputs (anywhere in tree) ---
+**/outputs/
+**/output/
+**/results/
+**/weights/
+**/checkpoints/
+**/inference_outputs/
+**/inference_output/
+
+# --- Large media (avoid committing raw media) ---
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+*.webp
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# --- Archives ---
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.7z
+*.rar
+
+# --- Project-specific heavy vendor dir ---
+Tasks/ObjectsDetective/Tracking_deep_sort_pytorch/yolo__deep_sort/
+
+# --- Allow placeholders for ignored dirs ---
+!.gitkeep
+EOF
