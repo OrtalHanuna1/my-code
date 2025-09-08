@@ -1,0 +1,9 @@
+kaggle
+timm==0.9.16
+fastervit
+albumentations==1.4.16 --no-binary qudida,albumentations
+torch==2.1.2 
+torchvision==0.16.2
+torchmetrics==1.5.0
+torchinfo==1.8.0
+pycocotools==2.0.8
